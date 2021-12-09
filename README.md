@@ -6,7 +6,8 @@ A collection of TV shows quotes [scraped](https://github.com/piger/wikiquote2for
 
 ## Install
 
-Run `compile.sh` to process all the fortune files, then run `fortune` pointing it at the `fortunes/` directory:
+Run `make` in the `fortunes/` directory or run `compile.sh` to process all the fortune files, then
+run `fortune` pointing it at the `fortunes/` directory:
 
 ```
 fortune /path/to/fortune-tvshows/fortunes
